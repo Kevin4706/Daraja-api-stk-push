@@ -1,0 +1,26 @@
+{
+  "name": "paylink-mpesa-stk-push",
+  "version": "1.0.0",
+  "description": "Production M-Pesa STK Push payment integration for Paylink Ventures",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mpesa",
+    "daraja",
+    "stk-push",
+    "payment",
+    "safaricom"
+  ],
+  "author": "Kevin4706",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2"
+  }
+}
